@@ -2,7 +2,8 @@
 """
 General idea:
 Just compute the next coordinates until we have reached high enough number.
-
+We are always taking two turn until we are increasing the step size (number of steps until next turn)
+Using that, the next coordinate can be computed easily
 """
 def makeGen(end):
     x, y = 0, 0 #Current position
